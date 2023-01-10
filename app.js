@@ -34,8 +34,8 @@ app.get("/",function(req,res){
 
 
 //////////////////thank you page route for get/////////////////
-app.get("/thanks",function(req,res){
-  res.render("thanks");
+app.get("/danke",function(req,res){
+  res.render("danke",{currentYear:year});
 });
 
 
